@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Contacto</title>
+</head>
+<body>
+	<font size=5 color="ea3635" face="Adobe Gothic Std B">Contacto</font>
+		<br>
+	Si necesitas ponerte en contacto con nosotros por un problema, queja o para mandarnos una carta de opini&oacute;n, rellena
+	el formulario y responderemos a tu e-mail en tres d&iacute;as laborables como m&aacute;ximo. 
+	<br><br>
+	<font size=5 color="ea3635" face="Adobe Gothic Std B">Formulario de Contacto</font>
+		<FORM ACTION="mailto:unaprueba" METHOD="POST">
+		Nombre: <INPUT TYPE="TEXT" NAME="Nombre"><br><br>
+		E-mail: <INPUT TYPE="TEXT" NAME="Nombre"><br>
+		<BR>
+		¿Deseas suscribirte a nuestros e-mails?:
+		<INPUT TYPE="radio" NAME="boton1" VALUE="1">Si
+		<INPUT TYPE="radio" NAME="boton2" VALUE="2">No<br>
+		<br><br>
+		<font>Motivo del e-mail:</font>
+		<br>
+		<SELECT NAME="motivo" MULTIPLE>
+		<OPTION VALUE="">----</OPTION>
+	<OPTION VALUE="R">Queja</OPTION>
+		<OPTION VALUE="Y">Pregunta</OPTION>
+			<OPTION VALUE="G">Carta al Director</OPTION>
+	</SELECT>
+	<br><br>
+		<TEXTAREA COLS=20 ROWS=10 NAME="Texto"></TEXTAREA>
+		<br>
+		<br>
+	<INPUT TYPE="Submit"><INPUT TYPE="Reset">
+	</FORM>
+</body>
+
+</html>
